@@ -1,7 +1,8 @@
 # CSP-StateMachine-Issue
 
-Depdencies:
+Depedencies:
 FishNet package
+Note:
 I used a 3D project with LTS 2021.3.7f1
 
 How to Install
