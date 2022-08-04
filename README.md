@@ -8,7 +8,7 @@ I used a 3D project with LTS 2021.3.7f1
 How to Install
 1. Click Code --> Download Zip
 2. Extract ZIP
-3. Create new Unity project, chosoe 3D
+3. Create new Unity project, choose 3D
 4. Click and drag the folder into Unity
 5. Install Fishnet (I used the latest version 2.3.9)
 6. Can create a build for server and use editor for client (more likely to see the issue this way I found) or use parrelsync (server and host looks fine, it's the client that jitters)
