@@ -10,8 +10,11 @@ How to Install
 2. Extract ZIP
 3. Create new Unity project, choose 3D
 4. Install Fishnet (I used the latest version 2.3.9) (do this before adding the github files) Windows --> Package Manager --> My Assets (go to the asset store on web to first add it to your account)
-5. Click and drag the github folder into Unity
-6. Can create a build for server and use editor for client (more likely to see the issue this way I found) or use parrelsync (server and host looks fine, it's the client that jitters)
+
+https://assetstore.unity.com/packages/tools/network/fish-net-networking-evolved-207815
+
+6. Click and drag the github folder into Unity
+7. Can create a build for server and use editor for client (more likely to see the issue this way I found) or use parrelsync (server and host looks fine, it's the client that jitters)
 
 Issue: Whenever I change states, there's a bit of jitter. You can see it when jumping or if you bring the player close to the camera and rapidly press the "D" key (it switches from idle to walking), you can see the jitter there too. 
 
