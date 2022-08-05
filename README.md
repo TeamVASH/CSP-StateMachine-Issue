@@ -27,3 +27,10 @@ To show the jump working smoothly without jitter, do these two things:
         //}
         
  (2) Comment out Jump(); in the Move() method in the GroundedState
+
+If you want to test Idling--> Walking jitter, change  playerMovementStateMachine.ReusableData.MovementSpeedModifier to equal 1 in Enter() in the IdlingState and comment out this in the IdlingState's Move method
+
+       if (md.MoveInput != Vector2.zero && playerMovementStateMachine.PlayerState._characterController.isGrounded)
+        {
+            playerMovementStateMachine.ChangeState(playerMovementStateMachine.WalkingState);
+        }
